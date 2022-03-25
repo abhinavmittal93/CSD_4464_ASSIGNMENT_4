@@ -1,0 +1,17 @@
+com\assignment4\config\WebSecurityConfig.class
+com\assignment4\model\PublisherBean.class
+com\assignment4\dao\PublisherDaoClass_H$1.class
+com\assignment4\controller\LoginController.class
+com\assignment4\controller\PublisherController.class
+com\assignment4\dao\MemberDaoClass_H.class
+com\assignment4\dao\LoginDaoClass_H.class
+com\assignment4\controller\MemberController.class
+com\assignment4\dao\BookDaoClass_H.class
+com\assignment4\controller\BookController.class
+com\assignment4\model\BookBean.class
+com\assignment4\model\MemberBean.class
+com\assignment4\dao\BookDaoClass_H$1.class
+com\assignment4\dao\MemberDaoClass_H$1.class
+com\assignment4\dao\PublisherDaoClass_H.class
+com\assignment4\model\LoginBean.class
+com\assignment4\dao\BookDaoClass_H$2.class
