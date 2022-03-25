@@ -14,6 +14,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 /**
  * @author Abhinav
+ * Date - 24 Mar, 2022
+ * Description - It is used to customize the spring scurity
  *
  */
 @EnableWebSecurity
@@ -22,6 +24,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private DataSource dataSource;
 	
+	/**
+	 * Configuring the URL which needs to be secured and which are public.
+	 * Also, defines the customize login page
+	 * 
+	 */
 	@Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
@@ -39,6 +46,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 //.formLogin().permitAll();
     }
 
+	/**
+	 * It checks the username and password entered by the user
+	 * 
+	 */
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 

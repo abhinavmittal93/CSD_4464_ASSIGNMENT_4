@@ -26,11 +26,24 @@ public class PublisherController {
 	@Autowired
 	private PublisherDaoClass_H publisherDao;
 	
+	/**
+	 * It gets the Publisher.jsp page
+	 * 
+	 * @return Publisher.jsp page
+	 */
 	@RequestMapping("")
 	public String getAddPublisherPage() {
 		return "Publisher";
 	}
 	
+	/**
+	 * It adds or updates the publisher with the details entered by the user on Publisher.jsp page.
+	 * 
+	 * @param publisherBean
+	 * @param action
+	 * @param m
+	 * @return Response.jsp page with proper response if the operation is success or failed.
+	 */
 	@PostMapping("/save")
 	public String addOrUpdatePublisher(PublisherBean publisherBean, String action, Model m) {
 		String message = null;

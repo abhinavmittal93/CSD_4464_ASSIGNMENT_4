@@ -46,7 +46,7 @@ public class MemberController {
 	}
 
 	/**
-	 * It adds or updated the member with the details entered by the user on Member.jsp page.
+	 * It adds or updates the member with the details entered by the user on Member.jsp page.
 	 * 
 	 * @param memberBean
 	 * @param br

@@ -7,6 +7,8 @@ import org.springframework.security.web.context.AbstractSecurityWebApplicationIn
 
 /**
  * @author Abhinav
+ * Date - 24 Mar, 2022
+ * Description - It intializes the spring security filter
  *
  */
 public class SecurityWebApplicationInitializer extends AbstractSecurityWebApplicationInitializer {
